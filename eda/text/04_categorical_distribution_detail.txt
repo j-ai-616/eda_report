@@ -1,0 +1,32 @@
+[Attrition 분포(%)]
+Attrition
+No     83.9
+Yes    16.1
+
+[Gender 분포(%)]
+Gender
+Male      60.0
+Female    40.0
+
+[OverTime 분포(%)]
+OverTime
+No     71.7
+Yes    28.3
+
+[Department 분포(%)]
+Department
+Research & Development    65.4
+Sales                     30.3
+Human Resources            4.3
+
+[JobRole 분포(%)]
+JobRole
+Sales Executive              22.2
+Research Scientist           19.9
+Laboratory Technician        17.6
+Manufacturing Director        9.9
+Healthcare Representative     8.9
+Manager                       6.9
+Sales Representative          5.6
+Research Director             5.4
+Human Resources               3.5

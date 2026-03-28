@@ -1,0 +1,6 @@
+### Attrition별 평균 비교
+
+| index | MonthlyIncome | YearsAtCompany | Age | TotalWorkingYears |
+|---|---|---|---|---|
+| No | 6832.74 | 7.37 | 37.56 | 11.86 |
+| Yes | 4787.09 | 5.13 | 33.61 | 8.24 |

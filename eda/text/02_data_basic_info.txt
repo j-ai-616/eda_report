@@ -1,0 +1,127 @@
+행, 열: (1470, 35)
+
+컬럼명:
+['Age', 'Attrition', 'BusinessTravel', 'DailyRate', 'Department', 'DistanceFromHome', 'Education', 'EducationField', 'EmployeeCount', 'EmployeeNumber', 'EnvironmentSatisfaction', 'Gender', 'HourlyRate', 'JobInvolvement', 'JobLevel', 'JobRole', 'JobSatisfaction', 'MaritalStatus', 'MonthlyIncome', 'MonthlyRate', 'NumCompaniesWorked', 'Over18', 'OverTime', 'PercentSalaryHike', 'PerformanceRating', 'RelationshipSatisfaction', 'StandardHours', 'StockOptionLevel', 'TotalWorkingYears', 'TrainingTimesLastYear', 'WorkLifeBalance', 'YearsAtCompany', 'YearsInCurrentRole', 'YearsSinceLastPromotion', 'YearsWithCurrManager']
+
+데이터 타입:
+Age                         int64
+Attrition                     str
+BusinessTravel                str
+DailyRate                   int64
+Department                    str
+DistanceFromHome            int64
+Education                   int64
+EducationField                str
+EmployeeCount               int64
+EmployeeNumber              int64
+EnvironmentSatisfaction     int64
+Gender                        str
+HourlyRate                  int64
+JobInvolvement              int64
+JobLevel                    int64
+JobRole                       str
+JobSatisfaction             int64
+MaritalStatus                 str
+MonthlyIncome               int64
+MonthlyRate                 int64
+NumCompaniesWorked          int64
+Over18                        str
+OverTime                      str
+PercentSalaryHike           int64
+PerformanceRating           int64
+RelationshipSatisfaction    int64
+StandardHours               int64
+StockOptionLevel            int64
+TotalWorkingYears           int64
+TrainingTimesLastYear       int64
+WorkLifeBalance             int64
+YearsAtCompany              int64
+YearsInCurrentRole          int64
+YearsSinceLastPromotion     int64
+YearsWithCurrManager        int64
+dtype: object
+
+결측치 개수:
+Age                         0
+Attrition                   0
+BusinessTravel              0
+DailyRate                   0
+Department                  0
+DistanceFromHome            0
+Education                   0
+EducationField              0
+EmployeeCount               0
+EmployeeNumber              0
+EnvironmentSatisfaction     0
+Gender                      0
+HourlyRate                  0
+JobInvolvement              0
+JobLevel                    0
+JobRole                     0
+JobSatisfaction             0
+MaritalStatus               0
+MonthlyIncome               0
+MonthlyRate                 0
+NumCompaniesWorked          0
+Over18                      0
+OverTime                    0
+PercentSalaryHike           0
+PerformanceRating           0
+RelationshipSatisfaction    0
+StandardHours               0
+StockOptionLevel            0
+TotalWorkingYears           0
+TrainingTimesLastYear       0
+WorkLifeBalance             0
+YearsAtCompany              0
+YearsInCurrentRole          0
+YearsSinceLastPromotion     0
+YearsWithCurrManager        0
+dtype: int64
+
+상수 컬럼:
+['EmployeeCount', 'Over18', 'StandardHours']
+
+df.info():
+<class 'pandas.DataFrame'>
+RangeIndex: 1470 entries, 0 to 1469
+Data columns (total 35 columns):
+ #   Column                    Non-Null Count  Dtype
+---  ------                    --------------  -----
+ 0   Age                       1470 non-null   int64
+ 1   Attrition                 1470 non-null   str  
+ 2   BusinessTravel            1470 non-null   str  
+ 3   DailyRate                 1470 non-null   int64
+ 4   Department                1470 non-null   str  
+ 5   DistanceFromHome          1470 non-null   int64
+ 6   Education                 1470 non-null   int64
+ 7   EducationField            1470 non-null   str  
+ 8   EmployeeCount             1470 non-null   int64
+ 9   EmployeeNumber            1470 non-null   int64
+ 10  EnvironmentSatisfaction   1470 non-null   int64
+ 11  Gender                    1470 non-null   str  
+ 12  HourlyRate                1470 non-null   int64
+ 13  JobInvolvement            1470 non-null   int64
+ 14  JobLevel                  1470 non-null   int64
+ 15  JobRole                   1470 non-null   str  
+ 16  JobSatisfaction           1470 non-null   int64
+ 17  MaritalStatus             1470 non-null   str  
+ 18  MonthlyIncome             1470 non-null   int64
+ 19  MonthlyRate               1470 non-null   int64
+ 20  NumCompaniesWorked        1470 non-null   int64
+ 21  Over18                    1470 non-null   str  
+ 22  OverTime                  1470 non-null   str  
+ 23  PercentSalaryHike         1470 non-null   int64
+ 24  PerformanceRating         1470 non-null   int64
+ 25  RelationshipSatisfaction  1470 non-null   int64
+ 26  StandardHours             1470 non-null   int64
+ 27  StockOptionLevel          1470 non-null   int64
+ 28  TotalWorkingYears         1470 non-null   int64
+ 29  TrainingTimesLastYear     1470 non-null   int64
+ 30  WorkLifeBalance           1470 non-null   int64
+ 31  YearsAtCompany            1470 non-null   int64
+ 32  YearsInCurrentRole        1470 non-null   int64
+ 33  YearsSinceLastPromotion   1470 non-null   int64
+ 34  YearsWithCurrManager      1470 non-null   int64
+dtypes: int64(26), str(9)
+memory usage: 402.1 KB
